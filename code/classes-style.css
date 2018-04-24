@@ -1,0 +1,52 @@
+body {
+	background: #ADD8E6;
+}
+#container {
+	 	display: flex;
+   align-items: center;
+   justify-content: center;
+
+   flex-direction: row;
+
+
+  
+   align-content: flex-end;
+}
+.flex-container {
+	
+    text-align: center;
+    background: gray;
+    background-color: white;
+    position: relative;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+}
+.flex-container:nth-of-type(2) > h1 {
+	background: orange;
+
+}
+
+.flex-container:nth-of-type(3) > h1 {
+	background: green;
+}
+.flex-container:nth-of-type(4) > h1 {
+	background: purple;
+}
+.flex-container > h1 {
+	color: white;
+	background: red;
+	padding: 1em;
+
+}
+.flex-container > ul {
+	padding: 1em;
+}
+.flex-container > * {
+ 
+    list-style-type: none;
+    background-color: white;
+}
+
+
